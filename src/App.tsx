@@ -142,7 +142,7 @@ class App extends Component {
 					width={this.imageSize}
 					height={this.imageSize}
 				/>
-				<Styled.Heading>SP</Styled.Heading>
+				<Styled.Heading>SPAI Hackathon 2022</Styled.Heading>
 				<Styled.ImagesRow>
 					{SQUEEZENET_IMAGE_URLS.map((item) => (
 						<Styled.ImageContainer
