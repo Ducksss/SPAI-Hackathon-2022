@@ -1,7 +1,22 @@
-# ONNX - Heartbeat
+# SPAI HACKATHON (996-enthusiasts)
 
-Onnx.JS tutorial project for [heartbeat blog](https://heartbeat.fritz.ai/building-an-object-detection-app-using-onnx-js-c7147f4f291b)
 
-## Checkout in production
+### Set up and run object detector model
 
-[Here it is](https://onnx-heartbeat.netlify.com/)
+1. Change directory to object detector model
+
+```
+cd yolov5
+```
+
+2. Install the required dependencies
+
+```
+pip install -r requirements.txt
+```
+
+3. Run yolov5 object detector model
+
+```
+python detect.py --weights model_dev/weights/trash_det.pt --source 0
+```
